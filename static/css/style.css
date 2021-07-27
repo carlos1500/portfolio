@@ -64,7 +64,7 @@ header#inicio div span{
    margin-left: 4rem;
 }
 
-header div#img_star img{
+header div#img-rocket img{
    width: 50%;
 }
 
@@ -124,6 +124,12 @@ section#projetos div#projeto-1{
       display: block;
       margin: auto;
       width:60%;
+   }
+
+   section#projetos div#projeto-1 button a{
+      text-decoration: none;
+      text-decoration-color: none;
+
    }
 
 section#projetos div#projeto-2{
@@ -227,7 +233,7 @@ section#projetos div button:hover{
 
 section#habilidades{
    padding: 3rem 10rem 3rem 10rem;
-   background-color:  #ffd7d7;
+   background-color:  #f09eb767;
 }
 
 section#habilidades h2{
@@ -250,7 +256,7 @@ section#habilidades div{
 
 section#habilidades div span#python{
    background-color: rgb(164, 22, 26);
-   color: #fff;
+   color: whitesmoke;
    text-align: center;
    padding: .3rem;
    border-radius: 1rem;
@@ -260,7 +266,7 @@ section#habilidades div span#python{
 
 section#habilidades div span#html{
    background-color: rgb(164, 22, 26);
-   color: #fff;
+   color: whitesmoke;
    text-align: center;
    padding: .3rem;
    border-radius: 1rem;
@@ -269,7 +275,7 @@ section#habilidades div span#html{
 
 section#habilidades div span#css{
    background-color: rgb(164, 22, 26);
-   color: #fff;
+   color: whitesmoke;
    text-align: center;
    padding: .3rem;
    border-radius: 1rem;
@@ -278,11 +284,43 @@ section#habilidades div span#css{
 
 section#habilidades div span#wordpress{
    background-color: rgb(164, 22, 26);
-   color: #fff;
+   color: whitesmoke;
    text-align: center;
    padding: .3rem;
    border-radius: 1rem;
    width: 70%;}
+
+section#localização {
+   color: whitesmoke;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-wrap: wrap;
+   background-color: rgb(102, 7, 8);
+}
+
+section#localização p{
+   color: whitesmoke;
+   display: flex;
+   justify-content: center;
+   padding: 2rem 2rem 1rem 2rem;
+   font-size: 1.3vw;
+   width: 100%;
+}
+
+section#localização span {
+   color: whitesmoke;
+   display: flex;
+   justify-content: center;
+   padding: 0rem 2rem 1rem 2rem;
+   font-size: 1vw;
+   width: 100%;
+}
+
+section#localização iframe {
+   width: 50%;
+   padding: 2rem;
+}
 
 section#contato {
    padding: 3rem 10rem 3rem 10rem; 
